@@ -1,0 +1,69 @@
+.header-container {
+  text-align: center; 
+  padding: 5px; 
+  background-color: #f0f0f0; 
+  border-bottom: 2px solid #ccc; 
+}
+.footer-container {
+  position: fixed; 
+  bottom: 0; 
+  width: 100%;
+  background-color: #333; 
+  color: #fff; 
+  padding: 10px; 
+  text-align: center; 
+}
+*{
+  margin:0px;
+}
+.name-changer{
+  position: absolute;
+  left:500px;
+  top:100px;
+}
+.buttonchanger{
+  position: absolute;
+  left:600px;
+  top:150px;
+}
+
+.todo-container {
+  display: flex; 
+  justify-content: center; 
+  align-items: center; 
+  height: 100vh; 
+}
+
+ul {
+  list-style: none; 
+  padding: 0;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+input[type="checkbox"] {
+  margin-right: 10px; 
+}
+
+label {
+  display: inline-block; 
+}
+
+button {
+  margin-left: 10px; 
+  padding: 5px 10px; 
+  border: none; 
+  background-color: #007bff; 
+  color: #fff; 
+  cursor: pointer; 
+}
+
+button:hover {
+  background-color: #0056b3; 
+}
+.formData{
+  position: relative;
+  left:500px;
+}
